@@ -1,0 +1,65 @@
+* {
+    border: 1px dotted;
+}
+
+body {
+    background-color: rgba(228, 249, 224, 0.47);
+    font-family: Verdana, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    padding: 1px;
+}
+
+p {
+    margin: 1px;
+}
+
+#page {
+    width: 800px;
+    margin: auto
+}
+
+#header {
+    clear: both;
+}
+
+#identity {
+    float: left;
+}
+
+#name {
+    font-size: 36px;
+}
+
+#location {
+    float: right;
+    margin-right: 5px;
+}
+
+#social {
+    float: right;
+}
+
+#social img {
+    width: 50px;
+}
+
+#twitter {
+    background-color: #55acee;
+    border-radius: 5px;
+}
+
+#github {
+    background-color: #000000;
+    border-radius: 5px;
+}
+
+#name h3 {
+    padding-left: 10px;
+}
+
+#information {
+    clear: both;
+}

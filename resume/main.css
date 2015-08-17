@@ -1,65 +1,88 @@
-* {
-    border: 1px dotted;
-}
+/** {*/
+  /*border: 1px dotted;*/
+/*}*/
 
 body {
-    background-color: rgba(228, 249, 224, 0.47);
-    font-family: Verdana, sans-serif;
+  background-color: rgba(240, 249, 232, 0.47);
+  font-family: Verdana, sans-serif;
 }
 
 ul {
-    list-style-type: none;
-    padding: 1px;
+  list-style-type: none;
+  padding: 1px;
 }
 
 p {
-    margin: 1px;
+  margin: 1px;
 }
 
 #page {
-    width: 800px;
-    margin: auto
+  width: 800px;
+  margin: auto
 }
 
 #header {
-    clear: both;
+  clear: both;
+  margin-bottom: 20px;
 }
 
 #identity {
-    float: left;
+  float: left;
 }
 
 #name {
-    font-size: 36px;
+  font-size: 36px;
+  margin-bottom: -5px;
 }
 
 #location {
-    float: right;
-    margin-right: 5px;
+  float: right;
+  margin-right: 10px;
+  margin-bottom: 1px;
+  font-size: 18px;
 }
 
 #social {
-    float: right;
+  float: right;
+  margin-right: 20px;
+  margin-top: 20px;
 }
 
 #social img {
-    width: 50px;
+  width: 50px;
 }
 
 #twitter {
-    background-color: #55acee;
-    border-radius: 5px;
+  background-color: #55acee;
+  border-radius: 5px;
 }
 
 #github {
-    background-color: #000000;
-    border-radius: 5px;
+  background-color: #000000;
+  border-radius: 5px;
 }
 
 #name h3 {
-    padding-left: 10px;
+  padding-left: 10px;
 }
 
 #information {
-    clear: both;
+  clear: both;
+}
+
+.information-item {
+  font-size: 24px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.job-title {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.description {
+  font-size: 14px;
+  margin-bottom: 10px;
 }

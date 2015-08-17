@@ -5,6 +5,12 @@
 body {
   background-color: rgba(240, 249, 232, 0.47);
   font-family: Verdana, sans-serif;
+  width: 800px;
+  margin: auto
+}
+
+a {
+  text-decoration: none;
 }
 
 ul {
@@ -14,11 +20,6 @@ ul {
 
 p {
   margin: 1px;
-}
-
-#page {
-  width: 800px;
-  margin: auto
 }
 
 #header {

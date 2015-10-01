@@ -37,7 +37,7 @@ p {
 
 header {
   clear: both;
-  margin-bottom: 20px;
+  padding-bottom: 100px;
 }
 
 #identity {
@@ -86,8 +86,6 @@ main {
 
 section h1 {
   font-size: 24px;
-  margin-top: 10px;
-  margin-bottom: 10px;
 }
 
 .job-title {

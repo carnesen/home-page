@@ -1,3 +1,5 @@
+
+
 @font-face {
   font-family: 'OpenSansRegular';
   src: url('../fonts/Open_Sans/OpenSans-Regular.ttf');
@@ -96,4 +98,10 @@ section h1 {
 .description {
   margin-bottom: 10px;
   line-height: 1.5;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 12px;
 }

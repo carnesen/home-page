@@ -1,8 +1,15 @@
 import React from 'react'
 
-import TopCard from './top-card'
-export default function Root() {
+import Home from './home'
+import BottomBar from './bottom-bar'
+
+export default function Root () {
   return (
-    <TopCard />
+    <div>
+      <Home />
+      <BottomBar />
+    </div>
   )
 }
+
+Root.propTypes = {}

@@ -2,7 +2,6 @@ import path from 'path'
 import webpack from 'webpack'
 
 const { NODE_ENV } = process.env
-const production = NODE_ENV === 'production'
 
 const plugins = [
   new webpack.DefinePlugin({
@@ -10,7 +9,7 @@ const plugins = [
   })
 ]
 
-if (production) {
+if (NODE_ENV === 'production') {
   plugins.push(new webpack.optimize.UglifyJsPlugin())
 }
 
@@ -27,7 +26,10 @@ module.exports = [
     plugins,
     module: {
       loaders: [
-        { test: /.js$/, loader: 'babel-loader', exclude: /node_modules/ }
+        { test: /\.js$/, loader: 'babel', exclude: /node_modules/ },
+        { test: /\.json$/, loader: 'json' },
+        { test: /\.css$/, loaders: ['style', 'css?modules'] },
+        { test: /\.(eot|svg|ttf|woff|woff2|jpg|png)$/, loader: 'file' }
       ]
     }
   }

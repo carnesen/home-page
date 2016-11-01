@@ -1,5 +1,11 @@
-_site/
-.sass-cache/
-.jekyll-metadata
+# Log files
+*.log*
+
+# build artifacts
+dist/
+
+# Dependency directory
+node_modules/
+
+# IntelliJ project files
 .idea/
-.DS_Store

@@ -2,6 +2,7 @@
 
 const path = require('path')
 const fs = require('fs-extra')
+const pkg = require('../package.json')
 
 const topDir = path.resolve(__dirname, '..')
 const distDir = path.join(topDir, 'dist')
@@ -21,5 +22,7 @@ console.log('Emptying dist/')
 fs.emptyDirSync(distDir)
 
 console.log('Copying files:')
-copyToDist('package.json')
 sourcePaths.forEach(copyToDist)
+
+fs.writeFileSync(path.join(distDir, 'version'), `${pkg.version}\n`)
+console.log('Wrote version file')

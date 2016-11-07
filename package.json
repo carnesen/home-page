@@ -8,7 +8,10 @@
     "lint": "eslint src webpack.config.babel.js",
     "lint:fix": "npm run lint -- --fix",
     "test": "npm run lint && npm run build && npm run test:unit",
-    "test:unit": "mocha --require .before-tests.js src/**/*-test.js"
+    "test:unit": "mocha --require .before-tests.js src/**/*-test.js",
+    "preversion": "npm test",
+    "version": "npm run build",
+    "postversion": "git push && git push --tags && npm publish"
   },
   "dependencies": {},
   "devDependencies": {
@@ -39,7 +42,8 @@
     "webpack-dev-server": "1.16.2"
   },
   "files": [
-    "dist"
+    "dist",
+    "src"
   ],
   "author": {
     "name": "Chris Arnesen",

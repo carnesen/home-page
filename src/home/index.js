@@ -11,8 +11,10 @@ export default function Home () {
           <img src={me} className={styles.image} />
         </div>
         <div className={styles.titleWrapper}>
-          <h1>Chris Arnesen</h1>
-          <h3>Web Engineer</h3>
+          <a href='/documents/Chris_Arnesen.pdf'>
+            <h1>Chris Arnesen</h1>
+            <h3>Web Engineer</h3>
+          </a>
         </div>
       </div>
     </div>

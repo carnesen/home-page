@@ -9,16 +9,17 @@ const publicDir = path.join(topDir, 'public')
 
 function copyToDist(sourcePath) {
   const fileName = path.basename(sourcePath)
-  const destinationPath = path.join(distDir, fileName)
   console.log(`  - ${fileName}`)
+  const destinationPath = path.join(distDir, fileName)
   fs.copySync(sourcePath, destinationPath)
 }
 
 const sourcePaths = fs.readdirSync(publicDir)
   .map(fileName => path.join(publicDir, fileName))
 
-console.log(`Emptying dist/`)
+console.log('Emptying dist/')
 fs.emptyDirSync(distDir)
 
-console.log(`Copying files to from public/ to dist/`)
+console.log('Copying files:')
+copyToDist('package.json')
 sourcePaths.forEach(copyToDist)

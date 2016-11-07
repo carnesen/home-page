@@ -19,3 +19,15 @@
   flex-direction: column;
   justify-content: center;
 }
+
+.titleWrapper h1 {
+  font-size: 5vw;
+}
+
+.titleWrapper h3 {
+  font-size: 3vw;
+}
+
+.titleWrapper a {
+  color: inherit;
+}

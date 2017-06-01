@@ -16,7 +16,7 @@
     "koa-static": "3.0.0"
   },
   "devDependencies": {
-    "@carnesen/aws": "*",
+    "@carnesen/aws": "github:carnesen/aws#v0.0.4",
     "@carnesen/styles": "0.0.1",
     "babel-core": "6.18.2",
     "babel-loader": "6.2.7",
@@ -41,6 +41,5 @@
     "style-loader": "0.13.1",
     "webpack": "1.13.3",
     "webpack-dev-server": "1.16.2"
-  },
-  "license": "MIT"
+  }
 }

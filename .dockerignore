@@ -1,0 +1,8 @@
+.git*
+.eslintrc.json
+.babelrc
+.before-tests.js
+.travis.yml
+node_modules
+README.md
+webpack.config.babel.js

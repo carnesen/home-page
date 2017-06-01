@@ -1,8 +1,10 @@
+#!/usr/bin/env node
 'use strict'
 
 const path = require('path')
 const fs = require('fs-extra')
-const pkg = require('../package.json')
+
+const {getGitHash} = require('@carnesen/aws')
 
 const topDir = path.resolve(__dirname, '..')
 const distDir = path.join(topDir, 'dist')
@@ -24,5 +26,5 @@ fs.emptyDirSync(distDir)
 console.log('Copying files:')
 sourcePaths.forEach(copyToDist)
 
-fs.writeFileSync(path.join(distDir, 'version'), `${pkg.version}\n`)
+fs.writeFileSync(path.join(distDir, 'version'), getGitHash())
 console.log('Wrote version file')

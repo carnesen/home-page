@@ -23,11 +23,11 @@ async function loggerMiddleware (ctx, next) {
   }
 }
 
-function healthCheckMiddleware (ctx, next) {
+async function healthCheckMiddleware (ctx, next) {
   if (ctx.get('user-agent').startsWith('ELB-HealthChecker')) {
     ctx.body = 'OK'
   } else {
-    next()
+    await next()
   }
 }
 

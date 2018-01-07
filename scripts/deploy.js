@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
-const {deploymentFactory, run} = require('@carnesen/aws')
+const {websiteFactory, run} = require('@carnesen/aws')
 
-const deployment = deploymentFactory({priority: 1})
+const website = websiteFactory()
 
-run(deployment.create)
+run(website.create)

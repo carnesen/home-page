@@ -1,7 +1,8 @@
 {
-  "name": "www",
+  "name": "@carnesen/www",
   "description": "Source code for www.carnesen.com",
-  "private": true,
+  "version": "0.0.0-0",
+  "main": "index.js",
   "scripts": {
     "build": "./scripts/build.js && NODE_ENV=production webpack --bail",
     "build:watch": "./scripts/build.js && webpack-dev-server --content-base dist/",
@@ -9,10 +10,11 @@
     "lint:fix": "npm run lint -- --fix",
     "start": "webpack-dev-server --content-base dist/",
     "test": "npm run lint && npm run build && npm run test:unit",
-    "test:unit": "mocha --require .before-tests.js src/**/*-test.js"
+    "test:unit": "mocha --require .before-tests.js src/**/*-test.js",
+    "preversion": "npm test",
+    "postversion": "npm publish"
   },
   "devDependencies": {
-    "@carnesen/aws": "github:carnesen/aws#bfed33c0471",
     "@carnesen/styles": "0.0.1",
     "babel-core": "6.18.2",
     "babel-loader": "6.2.7",

@@ -1,7 +1,7 @@
 {
   "name": "@carnesen/www",
   "description": "Source code for www.carnesen.com",
-  "version": "0.0.0-0",
+  "version": "0.0.0",
   "main": "index.js",
   "scripts": {
     "build": "./scripts/build.js && NODE_ENV=production webpack --bail",

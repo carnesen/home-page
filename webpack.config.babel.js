@@ -1,12 +1,12 @@
 import path from 'path'
 import webpack from 'webpack'
 
-const { NODE_ENV } = process.env
+const {NODE_ENV} = process.env
 
 const plugins = [
   new webpack.DefinePlugin({
-    'process.env.NODE_ENV': JSON.stringify(NODE_ENV)
-  })
+    'process.env.NODE_ENV': JSON.stringify(NODE_ENV),
+  }),
 ]
 
 if (NODE_ENV === 'production') {
@@ -17,20 +17,20 @@ module.exports = [
   {
     entry: [
       'babel-polyfill',
-      path.join(__dirname, 'src', 'index.js')
+      path.join(__dirname, 'src', 'index.js'),
     ],
     output: {
       path: path.join(__dirname, 'dist'),
-      filename: 'bundle.js'
+      filename: 'bundle.js',
     },
     plugins,
     module: {
       loaders: [
-        { test: /\.js$/, loader: 'babel', exclude: /node_modules/ },
-        { test: /\.json$/, loader: 'json' },
-        { test: /\.css$/, loaders: ['style', 'css?modules'] },
-        { test: /\.(eot|svg|ttf|woff|woff2|jpg|png)$/, loader: 'file' }
-      ]
-    }
-  }
+        {test: /\.js$/, loader: 'babel', exclude: /node_modules/},
+        {test: /\.json$/, loader: 'json'},
+        {test: /\.css$/, loaders: ['style', 'css?modules']},
+        {test: /\.(eot|svg|ttf|woff|woff2|jpg|png)$/, loader: 'file'},
+      ],
+    },
+  },
 ]

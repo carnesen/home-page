@@ -6,7 +6,7 @@
   "scripts": {
     "build": "./scripts/build.js && NODE_ENV=production webpack --bail",
     "build:watch": "./scripts/build.js && webpack-dev-server --content-base dist/",
-    "lint": "eslint src webpack.config.babel.js",
+    "lint": "eslint src scripts webpack.config.babel.js",
     "lint:fix": "npm run lint -- --fix",
     "start": "webpack-dev-server --content-base dist/",
     "test": "npm run lint && npm run build && npm run test:unit",

@@ -15,7 +15,7 @@ const links = [
   [github, 'https://github.com/carnesen'],
   [linkedin, 'https://www.linkedin.com/in/carnesen'],
   [twitter, 'https://www.twitter.com/chrisarnesen'],
-  [yelp, 'https://carnesen.yelp.com']
+  [yelp, 'https://carnesen.yelp.com'],
 ]
 
 export default function BottomBar () {

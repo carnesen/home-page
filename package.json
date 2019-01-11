@@ -1,7 +1,7 @@
 {
   "name": "@carnesen/www",
   "description": "Source code for www.carnesen.com",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "scripts": {
     "build": "next build && next export -o dist && node scripts/build.js",
     "lint": "eslint --ext .js,.jsx src",

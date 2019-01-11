@@ -1,6 +1,5 @@
 {
-  "extends": [ "carnesen" ],
-  "env": {
-    "browser": true
-  }
+  "extends": [
+    "eslint-config-carnesen/react/.eslintrc.json"
+  ]
 }

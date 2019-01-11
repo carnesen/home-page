@@ -3,6 +3,9 @@
 # TODO: Remove this when dependencies have stabilized
 package-lock.json*
 
+#
+/.next
+
 # Logs
 logs
 npm-debug.log*

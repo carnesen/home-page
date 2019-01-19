@@ -3,11 +3,15 @@
 Source code for [www.carnesen.com](https://www.carnesen.com)
 
 ## Related
-- [@carnesen/bitcoin-config](https://github.com/carnesen/bitcoin-config): Constants, utilities, and TypeScript types for bitcoin server software configuration with Node.js
+- [@carnesen/bitcoin-config](https://github.com/carnesen/bitcoin-config): Node.js constants, utilities, and TypeScript types for bitcoin server software configuration
 
 - [@carnesen/bitcoin-core](https://github.com/carnesen/bitcoin-core): A Node.js command-line interface (CLI) for installing and launching Bitcoin Core
 
-- [@carnesen/cli](https://github.com/carnesen/cli): A library for building Node.js command-line interfaces
+- [@carnesen/bitcoin-rpc](https://github.com/carnesen/bitcoin-rpc): A Node.js client for bitcoin's remote procedure call (RPC) interface
+
+- [@carnesen/bitcoin-rpc-cli](https://github.com/carnesen/bitcoin-rpc): A Node.js command-line client for bitcoin's remote procedure call (RPC) interface
+
+- [@carnesen/cli](https://github.com/carnesen/cli): A Node.js library for building command-line interfaces
 
 - [@carnesen/coded-error](https://github.com/carnesen/coded-error): An enhanced `Error` class with additional properties "code" and "data"
 

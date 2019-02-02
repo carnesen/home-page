@@ -1,19 +1,18 @@
 import React from 'react';
-import ThemeProvider from 'material-ui/styles/MuiThemeProvider';
-import 'roboto-fontface/css/roboto/roboto-fontface.css';
+import styled from 'styled-components';
+import './main.css';
 
-import '@carnesen/styles/css/default.css';
-import Home from './home';
-import BottomBar from './bottom-bar';
+import { BusinessCard } from './business-card';
+
+const Page = styled.div`
+  width: 100%;
+`;
 
 export default function App() {
   return (
-    <ThemeProvider>
-      <div>
-        <Home />
-        <BottomBar />
-      </div>
-    </ThemeProvider>
+    <Page>
+      <BusinessCard />
+    </Page>
   );
 }
 

@@ -36,7 +36,6 @@ dispatch.yaml
 .gcloudignore
 
 #Build generated
-dist/
 build/
 built/
 lib/

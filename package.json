@@ -1,7 +1,7 @@
 {
   "name": "@carnesen/www",
   "description": "Source code for www.carnesen.com",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "scripts": {
     "test": "echo shrug",
     "preversion": "npm test",

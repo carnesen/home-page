@@ -5,15 +5,17 @@ Source code for [www.carnesen.com](https://www.carnesen.com)
 ## Related
 - [@carnesen/bitcoin-config](https://github.com/carnesen/bitcoin-config): A Node.js library for bitcoin server software configuration
 
-- [@carnesen/bitcoin-config-cli](https://github.com/carnesen/bitcoin-core): A Node.js command-line interface (CLI) for bitcoin server software configuration
+- [@carnesen/bitcoin-config-cli](https://github.com/carnesen/bitcoin-core): A Node.js command-line interface (CLI) for configuring bitcoin server software
 
 - [@carnesen/bitcoin-core-cli](https://github.com/carnesen/bitcoin-core-cli): A Node.js command-line interface for Bitcoin Core
 
-- [@carnesen/bitcoind](https://github.com/carnesen/bitcoind): A Node.js library for managing the bitcoin server process `bitcoind`
+- [@carnesen/bitcoin-service](https://github.com/carnesen/bitcoin-service): A Node.js library for managing the bitcoin server process `bitcoind`
 
-- [@carnesen/bitcoin-software](https://github.com/carnesen/bitcoin-software): Node.js utilities for installing bitcoin server software
+- [@carnesen/bitcoin-software](https://github.com/carnesen/bitcoin-software): Node.js utilities for managing bitcoin server software
 
-- [@carnesen/bitcoind-cli](https://github.com/carnesen/bitcoind-cli): A Node.js CLI and library for managing the bitcoin server process `bitcoind`
+- [@carnesen/bitcoin-software-cli](https://github.com/carnesen/bitcoin-software-cli): A Node.js command-line interface for managing bitcoin server software
+
+- [@carnesen/bitcoin-service-cli](https://github.com/carnesen/bitcoin-service-cli): A Node.js command-line interface for managing the bitcoin server process `bitcoind`
 
 - [@carnesen/bitcoin-rpc](https://github.com/carnesen/bitcoin-rpc): A Node.js client for bitcoin's remote procedure call (RPC) interface
 

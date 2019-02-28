@@ -13,7 +13,9 @@ Source code for [www.carnesen.com](https://www.carnesen.com)
 
 - [@carnesen/bitcoin-rpc-href](https://github.com/carnesen/bitcoin-rpc-href): A Node.js library for reading bitcoin's remote procedure call (RPC) configuration
 
-- [@carnesen/bitcoin-regtest-service](https://github.com/carnesen/bitcoin-service): A Node.js library for managing a regtest-mode `bitcoind` service
+- [@carnesen/bitcoin-regtest-service](https://github.com/carnesen/bitcoin-regtest-service): A Node.js library for managing a regtest-mode `bitcoind` service
+
+- [@carnesen/bitcoin-regtest-service-cli](https://github.com/carnesen/bitcoin-regtest-service-cli): A Node.js command-line interface for managing a regtest-mode `bitcoind` service
 
 - [@carnesen/bitcoin-config-cli](https://github.com/carnesen/bitcoin-core): A Node.js command-line interface (CLI) for configuring bitcoin server software
 

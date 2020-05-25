@@ -27,6 +27,8 @@ Source code for [www.carnesen.com](https://www.carnesen.com)
 
 - [@carnesen/bitcoin-rpc-cli](https://github.com/carnesen/bitcoin-rpc): A Node.js command-line client for bitcoin's remote procedure call (RPC) interface
 
+- [@carnesen/carnesen-dot-com](https://github.com/carnesen/carnesen-dot-com): Automates deployment of carnesen.com to Google Cloud Platform
+
 - [@carnesen/cli](https://github.com/carnesen/cli): A Node.js library for building command-line interfaces
 
 - [@carnesen/coded-error](https://github.com/carnesen/coded-error): An enhanced `Error` class with additional properties "code" and "data"
@@ -40,8 +42,6 @@ Source code for [www.carnesen.com](https://www.carnesen.com)
 - [@carnesen/tsconfig](https://github.com/carnesen/tsconfig): TypeScript configurations for `@carnesen` projects
 
 - [@carnesen/redirector](https://github.com/carnesen/redirector): A Node.js http server that redirects domain apex requests to the www subdomain
-
-- [@carnesen/carnesen-dot-com](https://github.com/carnesen/carnesen-dot-com): Automates deployment of carnesen.com to Google Cloud Platform
 
 - [@carnesen/google-cloud](https://github.com/carnesen/google-cloud): A Node.js library for deploying websites to Google Cloud Platform
 

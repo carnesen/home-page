@@ -1,10 +1,8 @@
 ### Node ###
 
-# TODO: Remove this when dependencies have stabilized
-package-lock.json*
-
-#
-/.next
+# Version files
+VERSION
+COMMITHASH
 
 # Logs
 logs

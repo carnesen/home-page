@@ -1,11 +1,11 @@
 {
   "name": "@carnesen/www",
   "description": "Source code for www.carnesen.com",
-  "version": "0.2.0",
+  "version": "2020.5.0",
   "scripts": {
-    "test": "echo shrug",
-    "preversion": "npm test",
-    "postversion": "npm publish"
+    "build": "./build.sh",
+    "test": "echo TODO tests",
+    "prepublishOnly": "npm run test"
   },
   "files": [
     "dist"

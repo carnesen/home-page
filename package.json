@@ -3,7 +3,8 @@
   "description": "Source code for www.carnesen.com",
   "version": "2020.5.0",
   "scripts": {
-    "test": "./build.sh",
+    "build": "./build.sh",
+    "test": "echo TODO tests",
     "prepublishOnly": "npm run test"
   },
   "files": [

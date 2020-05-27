@@ -1,4 +1,5 @@
-# @carnesen/www [![Build Status](https://travis-ci.org/carnesen/www.svg?branch=master)](https://travis-ci.org/carnesen/www)
+# @carnesen/www [![build status badge](https://github.com/carnesen/www/workflows/test/badge.svg)](https://github.com/carnesen/www/actions?query=workflow%3Atest+branch%3Amaster) [![npm version badge](https://badge.fury.io/js/%40carnesen%2Fwww.svg)](https://www.npmjs.com/package/@carnesen/www)
+
 
 Source code for [www.carnesen.com](https://www.carnesen.com)
 

@@ -4,8 +4,7 @@
 ### Added
 - Google Analytics tracking
 - Serve /robots.txt
-- Use GitHub Actions for CI
+- Use calendar versioning YYYY.M.#
 
 ### Internal
-- Use ESLint instead of TSLint
-- Use GitHub Action instead of Travis CI
+- Use GitHub Actions for CI

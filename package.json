@@ -1,17 +1,46 @@
 {
   "name": "@carnesen/www",
   "description": "Source code for www.carnesen.com",
-  "version": "2020.5.0",
+  "version": "2020.5.1",
   "scripts": {
-    "build": "./build.sh",
-    "test": "echo TODO tests",
+    "build": "rimraf lib/ && ./build.sh && tsc",
+    "lint": "eslint --ext .ts,.tsx src",
+    "test": "npm run lint && npm run unit-test && npm run build",
+    "unit-test": "jest",
     "prepublishOnly": "npm run test"
   },
+  "dependencies": {
+    "got": "11.1.4",
+    "http-status-codes": "1.4.0",
+    "install": "0.13.0",
+    "koa": "2.12.0",
+    "koa-static": "5.0.0",
+    "react": "16.13.1",
+    "react-dom": "16.13.1"
+  },
+  "devDependencies": {
+    "@carnesen/tsconfig": "0.3.0",
+    "@types/jest": "25.2.3",
+    "@types/koa": "2.11.3",
+    "@types/koa-static": "4.0.1",
+    "@types/node": "14.0.5",
+    "@types/react": "16.9.35",
+    "@types/react-dom": "16.9.8",
+    "eslint": "7.1.0",
+    "eslint-config-carnesen": "3.0.0",
+    "jest": "26.0.1",
+    "nodemon": "2.0.4",
+    "rimraf": "3.0.2",
+    "ts-jest": "26.0.0",
+    "ts-node": "8.10.1",
+    "typescript": "3.9.3"
+  },
   "files": [
+    "src",
+    "lib",
+    "package-lock.json",
     "dist"
   ],
-  "dependencies": {},
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/carnesen/www.git"

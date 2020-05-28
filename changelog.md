@@ -1,4 +1,8 @@
 # `@carnesen/www` change log
+## 2020.5.1
+### Changed
+- Refactor as Node.js application with React server-side rendering
+- Add server-side Google Analytics tracking
 
 ## 2020.5.0
 ### Added

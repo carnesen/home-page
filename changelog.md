@@ -1,4 +1,7 @@
 # `@carnesen/www` change log
+## 2020.5.2
+- Define npm start script
+
 ## 2020.5.1
 ### Changed
 - Refactor as Node.js application with React server-side rendering

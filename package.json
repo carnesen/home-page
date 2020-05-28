@@ -3,11 +3,11 @@
   "description": "Source code for www.carnesen.com",
   "version": "2020.5.1",
   "scripts": {
-    "build": "rimraf lib/ && ./build.sh && tsc",
+    "build": "rimraf lib/ && tsc",
     "lint": "eslint --ext .ts,.tsx src",
     "test": "npm run lint && npm run unit-test && npm run build",
     "unit-test": "jest",
-    "prepublishOnly": "npm run test"
+    "prepublishOnly": "npm run test && ./build.sh"
   },
   "dependencies": {
     "got": "11.1.4",

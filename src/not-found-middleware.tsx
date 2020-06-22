@@ -2,7 +2,6 @@ import React = require('react');
 import Koa = require('koa');
 import { NOT_FOUND } from 'http-status-codes';
 import { renderHtmlDocument } from './render-html-document';
-import { track } from './util';
 
 export const notFoundMiddleware: Koa.Middleware = async (ctx, next) => {
   ctx.response.status = NOT_FOUND;
@@ -12,5 +11,4 @@ export const notFoundMiddleware: Koa.Middleware = async (ctx, next) => {
     </div>,
   );
   await next();
-  track('pages', 'view', '404');
 };

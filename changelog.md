@@ -1,4 +1,14 @@
-# `@carnesen/www` change log
+# `@carnesen/www` changelog
+
+## 2020.8.0
+- Update resume to include Flock Freight
+- Use tabs instead of spaces
+- Add "npm run dev" script for starting development server
+- Remove jittery animations
+
+## 2020.6.0
+- Remove Google Analytics
+
 ## 2020.5.2
 - Define npm start script
 

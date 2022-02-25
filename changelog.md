@@ -2,6 +2,8 @@
 
 ## Upcoming
 
+## carnesen-www-2022.2.0 (2022-02-25)
+
 - Update resume to include Tradeweb
 - Add drop shadow and on-click action to name and title
 

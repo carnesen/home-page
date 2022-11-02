@@ -33,6 +33,9 @@ export const MainPage: React.FunctionComponent = () => (
 				<a href="https://www.twitter.com/chrisarnesen">
 					<img src="/images/twitter.svg" alt="icon for twitter" />
 				</a>
+				<a href="https://en.wikipedia.org/wiki/User:Chrisarnesen">
+					<img src="/images/wikipedia.svg" alt="icon for wikipedia" />
+				</a>
 			</div>
 		</div>
 	</div>
